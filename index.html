@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who Has the Bigger Number?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Who Has the Bigger Number?</h1>
+        <p id="welcome"></p>
+        <div class="scoreboard">
+            <div class="player">
+                <img src="img/user-icon.jpg" alt="User Icon" class="icon">
+                <p><span id="userNameDisplay"></span>: <span id="userScore">0</span></p>
+            </div>
+            <div class="player">
+                <img src="img/computer-icon.jpg.webp" alt="Computer Icon" class="icon">
+                <p>Computer: <span id="computerScore">0</span></p>
+            </div>
+        </div>
+        <button id="playButton">Play Round</button>
+        <p id="result"></p>
+        <h2 id="finalWinner"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
